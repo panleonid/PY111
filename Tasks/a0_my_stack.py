@@ -25,6 +25,7 @@ def pop() -> Any:
 
     :return: popped element
     """
+    my_stack.pop()
     return None
 
 
@@ -58,4 +59,8 @@ if __name__ == '__main__':
     clear()
     print(my_stack)
     push(4)
+    push(5)
+    push(6)
+    print(my_stack)
+    pop()
     print(my_stack)
